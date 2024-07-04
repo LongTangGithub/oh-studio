@@ -157,7 +157,7 @@ p, h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: auto;
     padding: 10rem 5rem;
 }
@@ -187,6 +187,114 @@ p, h1, h2, h3, h4, h5, h6 {
             border-radius: 2rem;
             background-color: rgba(232,229,228,0.50196);
             background-color: var(--tertiary-clr);
+        }
+
+.projects {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.projects .grid__container {
+        display: grid;
+        border: 2px solid black;
+        width: 70%;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-rows: repeat(6, auto);
+        grid-template-areas: 
+            "player1 player2"
+            "player3 player4"
+            "player5 player6"
+            "player7 player8"
+            "player9 player10"
+            "player11 player12"
+        ;
+        grid-gap: 1.5rem;
+        gap: 1.5rem;
+    }
+
+.projects .grid__container .item1 {
+            grid-area: player1;
+            border: 2px solid red;
+            height: 450px;
+            border-radius: 15px;
+        }
+
+.projects .grid__container .item2 {
+            grid-area: player2;
+            border: 2px solid red;
+            height: 450px;
+            border-radius: 15px;
+        }
+
+.projects .grid__container .item3 {
+            grid-area: player3;
+            border: 2px solid red;
+            height: 450px;
+            border-radius: 15px;
+        }
+
+.projects .grid__container .item4{
+            grid-area: player4;
+            border: 2px solid red;
+            height: 450px;
+            border-radius: 15px;
+        }
+
+.projects .grid__container .item5{
+            grid-area: player5;
+            border: 2px solid red;
+            height: 450px;
+            border-radius: 15px;
+        }
+
+.projects .grid__container .item6{
+            grid-area: player6;
+            border: 2px solid red;
+            height: 450px;
+            border-radius: 15px;
+        }
+
+.projects .grid__container .item7{
+            grid-area: player7;
+            border: 2px solid red;
+            height: 450px;
+            border-radius: 15px;
+        }
+
+.projects .grid__container .item8 {
+            grid-area: player8;
+            border: 2px solid red;
+            height: 450px;
+            border-radius: 15px;
+        }
+
+.projects .grid__container .item9 {
+            grid-area: player9;
+            border: 2px solid red;
+            height: 450px;
+            border-radius: 15px;
+        }
+
+.projects .grid__container .item10 {
+            grid-area: player10;
+            border: 2px solid red;
+            height: 450px;
+            border-radius: 15px;
+        }
+
+.projects .grid__container .item11 {
+            grid-area: player11;;
+            border: 2px solid red;
+            height: 450px;
+            border-radius: 15px;
+        }
+
+.projects .grid__container .item12 {
+            grid-area: player12;
+            border: 2px solid red;
+            height: 450px;
+            border-radius: 15px;
         }
 
 /* xs */

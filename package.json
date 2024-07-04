@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:css": "postcss src/postcss/global.pcss -o dist/global.css -w",
-    "build:css": "postcss src/postcss/global.pcss -o dist/global.css"
+    "watch:css": "postcss src/postcss/imports.pcss -o dist/imports.css -w",
+    "build:css": "postcss src/postcss/imports.pcss -o dist/imports.css"
   },
   "keywords": [],
   "author": "",

@@ -1,4 +1,3 @@
-@import "../postcss/imports.pcss";
 
 *,
 *::before,
@@ -51,4 +50,53 @@ p, h1, h2, h3, h4, h5, h6 {
 */
 #root, #__next {
   isolation: isolate;
+}
+
+.container{
+	width: 100%;
+	margin-inline: auto;
+	padding-inline: 0.5rem;
+}
+
+/* For Mobile */
+/* xs */
+@media (min-width: 475px){
+    .container {
+        max-width: 475px;
+    }
+}
+
+/* sm */
+@media (min-width: 640px){
+    .container {
+        max-width: 640px;
+    }
+}
+
+/* md */
+@media (min-width: 768px){
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px){
+    .container {
+        max-width: 1024px;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px){
+    .container {
+        max-width: 1280px;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px){
+    .container {
+        max-width: 1536px;
+    }
 }
